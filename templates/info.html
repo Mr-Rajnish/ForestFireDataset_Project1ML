@@ -38,7 +38,6 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin-bottom: 20px;
-            overflow-x: auto; /* Make tables scrollable if needed */
         }
 
         table {
@@ -74,57 +73,6 @@
         .btn:hover {
             background-color: rgb(8, 184, 8);
             color: black;
-        }
-
-        /* Media Queries for responsiveness */
-        @media (max-width: 768px) {
-            h1, h2 {
-                font-size: 24px; /* Reduce font size for smaller screens */
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .table-card {
-                width: 90%; /* Increase table width on smaller screens */
-                padding: 15px; /* Adjust padding */
-            }
-
-            .btn {
-                padding: 8px 16px; /* Adjust button size */
-                font-size: 14px; /* Adjust font size */
-            }
-
-            th, td {
-                padding: 8px; /* Adjust padding for smaller screens */
-                font-size: 14px; /* Adjust font size */
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1, h2 {
-                font-size: 20px; /* Further reduce font size for very small screens */
-            }
-
-            p {
-                font-size: 14px;
-            }
-
-            .table-card {
-                width: 100%; /* Use full width on very small screens */
-                padding: 10px; /* Further reduce padding */
-            }
-
-            .btn {
-                padding: 6px 12px; /* Smaller button for very small screens */
-                font-size: 12px; /* Smaller text */
-            }
-
-            th, td {
-                padding: 6px; /* Reduce padding */
-                font-size: 12px; /* Adjust font size */
-            }
         }
     </style>
 </head>
