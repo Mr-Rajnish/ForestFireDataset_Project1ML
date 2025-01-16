@@ -9,8 +9,8 @@ application=Flask(__name__)
 app=application
 
 # import ridge regression and standard scaler pickle
-ridge_model=pickle.load(open('./models/ridge.pkl','rb'))
-standard_scaler=pickle.load(open('./models/scaler.pkl','rb'))
+ridge_model=pickle.load(open('models/ridge.pkl','rb'))
+standard_scaler=pickle.load(open('models/scaler.pkl','rb'))
 
 
 @app.route("/")
